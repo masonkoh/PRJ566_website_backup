@@ -1,54 +1,78 @@
 <!DOCTYPE html>
-<html lang='en'>
+<html lang="en">
   <head>
-    <meta charset='UTF-8' />
+    <meta charset="UTF-8" />
     <title>PRJ566 - Group NN</title>
-    <script                src="../includes/myscript.js"  type="text/javascript"></script>  
-    <link rel='stylesheet' href='../includes/reset.css'   type='text/css' media='screen' /> 
-    <link rel='stylesheet' href='../includes/mystyle.css' type='text/css' media='screen' /> 
-</head>
-<body>
-  <div id='wrap'>
-    <div id='header'>
-      <script>
-        document.write(groupNumber);
-      </script>
-    </div>
-    <div id='left'>
-      <span class='menutitle'><a href="../index.html">PRJ566</a></span>
-      <p>
-      &nbsp;&nbsp;<a href="../members.html">                 Group Members/Email</a><br />
-      &nbsp;&nbsp;<a href="../deliverables.html">            Deliverables - Final Document</a><br /></p>
-      <span class='menutitle'>          Project Management</span>
-      <p>
-      &nbsp;&nbsp;<a href="../time/index.html">              Weekly Time Sheets</a><br />
-      &nbsp;&nbsp;<a href="../minutes/index.html">           Weekly Meeting Minutes</a><br />
-      &nbsp;&nbsp;<a href="../progress/index.html">          Weekly Progress Reports</a><br />
-       </p><hr />
-      <br /><span class='menutitle'>   April 09, 2019</span>
-      <p>
-      &nbsp;&nbsp;<a href="../final/index.html">Final Submission</a></p>
-    </div>
-    <div id='right'>
-         <h2>Time Sheets</h2>
-         <p>To be completed by individual members.</p>
-         <table class='table-type-1'>
-           <tr>
-            <th><a href="">Young Min Ko</a></th>
+    <script src="../includes/myscript.js" type="text/javascript"></script>
+    <link
+      rel="stylesheet"
+      href="../includes/reset.css"
+      type="text/css"
+      media="screen"
+    />
+    <link
+      rel="stylesheet"
+      href="../includes/mystyle.css"
+      type="text/css"
+      media="screen"
+    />
+  </head>
+  <body>
+    <div id="wrap">
+      <div id="header">
+        <script>
+          document.write(groupNumber);
+        </script>
+      </div>
+      <div id="left">
+        <span class="menutitle"><a href="../index.html">PRJ566</a></span>
+        <p>
+          &nbsp;&nbsp;<a href="../members.html"> Group Members/Email</a><br />
+          &nbsp;&nbsp;<a href="../deliverables.html">
+            Deliverables - Final Document</a
+          ><br />
+        </p>
+        <span class="menutitle"> Project Management</span>
+        <p>
+          &nbsp;&nbsp;<a href="../time/index.html"> Weekly Time Sheets</a><br />
+          &nbsp;&nbsp;<a href="../minutes/index.html"> Weekly Meeting Minutes</a
+          ><br />
+          &nbsp;&nbsp;<a href="../progress/index.html">
+            Weekly Progress Reports</a
+          ><br />
+        </p>
+        <hr />
+        <br /><span class="menutitle"> April 09, 2019</span>
+        <p>&nbsp;&nbsp;<a href="../final/index.html">Final Submission</a></p>
+      </div>
+      <div id="right">
+        <h2>Time Sheets</h2>
+        <p>To be completed by individual members.</p>
+        <table class="table-type-1">
+          <tr>
+            <th><a href="mk_timesheet.xlsx">Young Min Ko</a></th>
             <th><a href="">Gia Tuong Tran</a></th>
             <th><a href="">Pratik Panchani</a></th>
             <th><a href="">Arnav Bansal</a></th>
-           </tr>
-         </table> 	
-         <p>Here is a copy of the <a href='timesheet.xlsx'>timesheet template.</a></p>
-         <p>The template has different tabs for the different required timesheet dates</p>
-    </div>
-    <div id='footer'>
-       <script>
-          var dt=new Date(document.lastModified);   // Get document last modified date
-          document.write("<p>This page was last updated on "+dt.toLocaleString() + "</p>");
+          </tr>
+        </table>
+
+        <p>
+          Here is a copy of the <a href="timesheet.xlsx">timesheet template.</a>
+        </p>
+        <p>
+          The template has different tabs for the different required timesheet
+          dates
+        </p>
+      </div>
+      <div id="footer">
+        <script>
+          var dt = new Date(document.lastModified); // Get document last modified date
+          document.write(
+            "<p>This page was last updated on " + dt.toLocaleString() + "</p>"
+          );
         </script>
+      </div>
     </div>
-  </div>
-</body>
-</html> 
+  </body>
+</html>
